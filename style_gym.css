@@ -1,0 +1,295 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none; 
+}
+
+body{
+	font-family: "arial";
+	background-image: url(img/fondo-mancuerna.png);
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.banner{
+	width: 100%; 
+	min-height: 15vh; 
+	background-image: url(img/fondo-gym-new.png);
+	box-sizing: border-box;
+	display: flex;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+
+.bar-1{
+	width: 100%; 
+	height: 30px;
+	background-color: transparent;
+	display: flex; /* Reemplaza float: left; con display: flex; */
+  	align-items: center; /* Alinea los elementos verticalmente al centro */
+  	padding: 5px; /* Ajusta el padding para separar los elementos */
+}
+
+
+.bar-1 ul{
+	margin-left: auto;
+}
+
+.logo{
+	color: #000033;
+	font-size: 16px;
+	font-weight: 800;
+}
+
+.menu .navbar ul li a{
+	font-size: 18px;
+	padding: 20px;
+	color: #CEF6F5;
+	display: block;
+	font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+	color: #21979e;  
+}
+
+#menu{
+	display: none;
+}
+
+.gestion{
+	display: flex;
+}
+
+.form{
+	height: 487px;
+	padding: 10px;
+	width: 47%;
+	display: flex;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.admin{
+	background-color: #A9F5E1;
+	margin-right: auto;
+}
+
+.usuario{
+	background-color: #CEF6F5;
+	margin-right: auto; 
+}
+
+.form-1{
+	display: block;
+	width: 95%;
+	height: auto;
+	box-sizing: border-box;
+	padding: 40px;
+	margin: 0 auto;
+	align-items: center;
+	/*box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.5);*/
+}
+
+.form-1 h3,
+.form-1 h2,
+.form-1 input {
+  margin-bottom: 10px;
+}
+
+.form-1 h2,
+.form-1 input {
+	margin-top: 10px;
+}
+
+.form-1 h3,
+.form-1 a,
+.form-1 h2 {
+	text-decoration: underline;
+}
+
+.form-1 ul {
+	padding-top: 0.5px; 
+	display: block;
+}
+
+.form-1 li{
+	padding: 5px;
+}
+
+.form-1 a {
+	font-size: 18px;
+	color: #000033;
+	display: block;
+	font-weight: 600;
+}
+
+.form-1 input{
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+	resize: vertical;
+	border-color: #007bff;
+  	outline: none;
+  	border-radius: 5px;
+  	background-color: #F2F2F2;
+}
+
+#admin{
+	background-color: #F6CEEC;
+}
+
+#usuario{
+	background-color: #A9F5E1; 
+}
+
+
+.card-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Fondo difuminado */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      display: none; /* La tarjeta estará oculta inicialmente */
+}
+
+.card {
+      background-color: #FAEBD7;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+.card h4 {
+	font-size: 0.7rem;
+}
+
+/*////////////////////////////INFO DIV///////////////////////////////*/
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.box {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    max-height: 300px;
+}
+
+
+.b-1{
+	background-image: url("img/fondo-gym2.jpg");
+	/*opacity: 0.5;*/
+
+}
+.b-2{
+	background-image: url("img/monitor-gimnasio.jpg.webp");
+
+}
+.b-3{
+	background-image: url("img/fondo-ejercicios.jpg");
+}
+.b-4{
+	background-image: url("img/fondo-ejercicio2.jpg");
+}
+
+.box h2 {
+    color: rgba(241, 241, 241, 1.0);
+    text-shadow: 1px 1px 0 black, 2px 2px 0 black, 3px 3px 0 black, 4px 4px 0 black, 5px 5px 0 black;
+}
+
+.box p {
+    color: white;
+    text-shadow: 1px 1px 0 black, 2px 2px 0 black, 3px 3px 0 black, 4px 4px 0 black, 5px 5px 0 black;
+}
+
+.b-1 h2{
+	bottom: 50px;
+}
+
+
+
+/*//////////////////////////Recuperar contraseña//////////////////////////////////////////*/
+
+.titulo{
+	color: #E0F8F7;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 40px;
+	display: block;
+	height: 10px; 
+}
+
+.form-style{
+	background-color: #CEF6F5; 
+	height: 300px;
+	width: 400px;
+	border-radius: 10px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 120px;
+	flex-direction: column;
+	box-shadow: 2px 2px 2px 2px black;
+}
+
+.input-style{
+	width: 100%;
+	height: 30%;
+	padding-top: 20px;
+}
+
+.input-style input{
+	width: 70%; 
+	height: 35px;
+}
+
+.input-style input h4{
+	margin-top: 20px;
+}
+
+
+.form-style button{
+	width: 105px;
+	background-color: #21979e; 
+	color: white; 
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.form-style p{
+	text-align: justify;
+	font-size: 0.88rem;
+	padding: 9.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
